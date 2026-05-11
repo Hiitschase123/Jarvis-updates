@@ -1,14 +1,17 @@
 {
   "schema_version": 2,
+  "product_name": "Northline Desktop Assistant",
+  "short_name": "Northline",
   "channel": "private-beta",
   "version": "0.1.1-beta.7",
   "minimum_supported_version": "0.1.0",
   "published_at": "2026-05-09T00:00:00Z",
-  "release_notes": "Private beta update with prompted update delivery, manifest v2 support, System Doctor update status, support bundle update metadata, and packaged UI update-flow smoke coverage.",
+  "release_notes": "Northline Desktop Assistant private beta update with prompted update delivery, manifest v2 support, System Doctor update status, support bundle update metadata, and packaged UI update-flow smoke coverage. Legacy Jarvis artifact names are retained for this compatibility release.",
   "release_notes_url": "https://raw.githubusercontent.com/Hiitschase123/Jarvis-updates/main/channels/private-beta/release-notes.md",
   "artifacts": [
     {
       "name": "Jarvis-0.1.1-beta.7-win64.zip",
+      "display_name": "Northline Desktop Assistant 0.1.1-beta.7 for Windows",
       "url": "https://github.com/Hiitschase123/Jarvis-updates/releases/download/jarvis-0.1.1-beta.7/Jarvis-0.1.1-beta.7-win64.zip",
       "sha256": "17b7760a8a98997cc5cb3a943713e9f2d142f0af3479e9b2c2a571e953bd0016",
       "kind": "windows_zip",
@@ -16,6 +19,7 @@
     },
     {
       "name": "Jarvis-0.1.1-beta.7-win64.sha256",
+      "display_name": "Northline Desktop Assistant 0.1.1-beta.7 SHA256",
       "url": "https://github.com/Hiitschase123/Jarvis-updates/releases/download/jarvis-0.1.1-beta.7/Jarvis-0.1.1-beta.7-win64.sha256",
       "sha256": "17b7760a8a98997cc5cb3a943713e9f2d142f0af3479e9b2c2a571e953bd0016",
       "kind": "checksum",
@@ -23,5 +27,6 @@
     }
   ],
   "signature_policy": "advisory",
-  "signature_status": "unsigned_advisory"
+  "signature_status": "unsigned_advisory",
+  "compatibility_notes": "This update channel uses the Northline product name. Some repository, executable, and artifact names may still say Jarvis until the packaged binary rebrand is completed."
 }
