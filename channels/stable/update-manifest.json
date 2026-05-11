@@ -1,0 +1,11 @@
+{
+  "schema_version": 2,
+  "channel": "stable",
+  "version": "0.1.0",
+  "minimum_supported_version": "0.1.0",
+  "published_at": "2026-05-09T00:00:00Z",
+  "release_notes": "Stable channel reserved. No public stable Jarvis release is available yet.",
+  "artifacts": [],
+  "signature_policy": "advisory",
+  "signature_status": "unsigned_advisory"
+}
